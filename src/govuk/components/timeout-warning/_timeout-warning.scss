@@ -1,4 +1,4 @@
-@import "vendor/dialog-polyfill.0.5.0";
+@import './vendor/_dialog-polyfill.0.5.0.css';
 
 .govuk-timeout-warning {
   display: none;
@@ -19,10 +19,10 @@
   &[open] {
     display: block;
 
-    $backdrop-colour: rgba(0, 0, 0, .8);
+    $backdrop-colour: rgba(0, 0, 0, 0.8);
 
     // Backdrop styles for browsers with native support
-    &+ .backdrop {
+    & + .backdrop {
       background: $backdrop-colour;
     }
 
