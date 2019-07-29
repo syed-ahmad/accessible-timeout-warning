@@ -231,7 +231,7 @@ gulp.task('js:compile', () => {
           isDist,
           rename({
             basename: 'govuk-timeout-warning',
-            extname: '.min.js'
+            extname: '.src.js'
           })
         )
       )
